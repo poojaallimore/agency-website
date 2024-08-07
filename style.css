@@ -1,0 +1,92 @@
+/* Google font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+box-sizing: border-box;
+padding: 0px; 
+
+font-family: "Poppins", sans-serif;
+
+
+
+}
+#main-section{
+    border: 1px solid rgb(10, 10, 10);
+    width: 1200px;
+    /* height:600px; */
+    /* display: flex; */
+    margin: 40px auto;
+    box-shadow: 2px rgb(248, 245, 245);
+    background-color: #faf9f6;
+}
+h1{
+    margin-left: 20px;
+    color:rgb(247, 169, 74)
+}
+
+#tag-line{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-left: 8px;
+    margin-bottom: 0px;
+    
+}
+#tag{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 0px;
+    margin-left: 8px;
+}
+
+#word{
+    color: rgb(2, 2, 221);
+
+    font-weight: bolder;
+    font-size: xx-large;
+} 
+img{
+    margin-left: 8px;
+}
+
+#sub-section{
+    display:inline-flex
+}
+
+#beauty{
+    display:flex;
+
+    align-items: center;
+
+    gap: 10px;
+    
+} 
+
+#message{
+    margin-top:0px;
+    font-size: smaller;
+}
+
+#beauty-info h3{
+    font-size: medium;
+}
+
+#construction{
+    display: flex;
+    gap: 10px;
+}
+.constr-message{
+  font-size: medium;
+  margin-top: 0px;
+  /* margin-bottom: 0px; */
+}
+.constr-messg{
+    font-size: smaller;
+    margin-top: 0px;
+}
+
+#design-message{
+    text-align: right;
+    font-size: medium;
+}
